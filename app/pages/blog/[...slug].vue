@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { ContentNavigationItem } from '@nuxt/content'
-import { findPageBreadcrumb, mapContentNavigation } from '#ui/utils/content'
+import { findPageBreadcrumb, mapContentNavigation } from '@ui/utils/content'
 
 const route = useRoute()
 
