@@ -1,27 +1,59 @@
 title: About Me
-description: Learn more about my journey as a Boston-based UX/UI Designer & Front-End Developer, my design philosophy, and my passion for crafting intuitive digital experiences.
+description: Learn more about my journey as a Statistician and my passion for programming, research, data analysis and visualization.
 content: |
-  Hi, I'm **Emma Thompson**, a UX/UI Designer and Front-End Developer based right here in Boston. For the past six years, I've been immersed in the world of digital product creation, focusing on building experiences that are not just functional, but genuinely intuitive and engaging for users.
+  Hello, I am **Rezky Yayang (@rezkyyayang)**. I am a Junior Statistician at the National Institute of Public Administration (NIPA) Indonesia, specializing in data analysis and visualization. With a Bachelor's degree in Applied Statistics from STIS Polytechnic of Statistics, I have developed a strong foundation in statistical methods, programming, and data processing. My work focuses on providing open statistical data as part of Indonesia's One Data initiative, integrating applications with interconnected data, and conducting workshops for government employees on data processing and analysis.
 
-  My path started at **Boston University**, where I earned a degree in Interactive Design. It was there I discovered my dual passion for the visual language of design and the logical puzzle of code. Since then, I've honed my skills in both areas, believing that the best digital products are born from a deep understanding of both aesthetics and implementation.
+  ## Education
 
-  ### My Design Philosophy
+  A graduate of Applied Statistics from **STIS Polytechnic of Statistics** (Jakarta, Indonesia). Learned about calculus, linear algebra, algorithm and programming, probability and mathematical statistics, statistical methods, sampling theory, survey and census methodology, and official statistics. The bachelor thesis was titled *"Alternative School Quality Assessment in Secondary-Level through School Quality Index (SQI),"* which integrated several indicators of school quality such as students, teachers, and facilities quality obtained from the Basic Education Data. The project was completed with a grade A and a final GPA of 3.69/4.00.
 
-  My design philosophy is rooted in **empathy** and **problem-solving**. I believe great design starts with understanding the 'why' – the user's needs, motivations, and pain points. I use research, iterative prototyping (often with tools like Figma), and user testing to ensure the solutions I build are truly effective.
+  Previously studied Mathematics and Natural Sciences at **Senior High School 1 Tegal**, Central Java, where I learned both basic and advanced science subjects, as well as participated in computer and cyber extracurricular activities.
 
-  I strive to create interfaces that feel effortless, where functionality and beauty work hand-in-hand. Whether I'm crafting pixel-perfect UIs or writing clean Vue.js/Nuxt.js code, my focus is always on creating value for the end-user.
+  ---
 
-  ### What Drives Me
+  ## Work Experiences
 
-  What keeps me excited about this work is the constant learning and the challenge of translating complex ideas into simple, elegant solutions. There's nothing more rewarding than seeing a design come to life and knowing it's making someone's digital interaction easier or more enjoyable.
+  Currently working as a Junior Statistician at the **National Institute of Public Administration (NIPA) Indonesia** since February 2023. Responsible for providing NIPA statistical data openly as part of Indonesia One Data initiative through web portals, visualization dashboards, infographics, and book publications. The role also includes integrating multiple applications with interconnected data, planning survey instruments and methodologies, processing and analyzing data, and holding various workshops for government employees (ASN) related to basic data processing and analysis.
 
-  ### Beyond the Screen
+  Previously interned at BPS Statistics Indonesia (Tegal Municipality Region) from September 2022 to January 2023. Participated in the execution of survey and census activities from planning, staff training, field data collection, verification, to data processing. Also created infographics and visualizations for annual publications, and developed simple Excel-based tools to support survey data editing.
 
-  When I'm not designing or coding, you might find me exploring Boston's latest coffee shops, hiking nearby trails, or occasionally contributing to open-source projects.
+  ---
 
-  Thanks for stopping by. Feel free to browse my [projects](/projects) or [get in touch](/#contact) if you'd like to collaborate!
+  ## Publications
+
+  - “Challenges in the Implementation of Bureaucratic Reform Policies: An Evaluation”. Policy Paper, Center for Public Administration Policy Studies, NIPA (2024).
+  - “Effectiveness of Emergency Activity Restriction to Handle Covid-19 Cases Increasing: A Case Study in Java and Bali”. Proceedings of Official Statistics Conference (2021).
+  - “Covid-19 Cumulative Active Cases Modelling Using Multiple Classification Analysis Approach: A Case Study in Java and Bali”. Scientific Journal of Statistical Theory and Application (2021).
+
+  More details at [Google Scholar](https://scholar.google.co.id/citations?user=pmtPyS4AAAAJ&hl=id)
+
+  ---
+
+  ## Projects
+
+  Worked on **INOLAND** (https://inoland.lan.go.id) in 2024, a system developed to strengthen innovation capacity through various innovation learning programs.
+
+  Also developed the **NIPA Dashboard Integrated Data Center (IDC)** (https://dashboard.lan.go.id) in 2023, an interactive dashboard showcasing NIPA’s sectoral statistical data visualizations.
+
+  ---
+
+  ## Achievements
+
+  2nd Winner place at the LAN Data Hackathon 2023 in the category of Data Visualization using RShiny. The project focused on visualizing Indonesian workers' welfare data.
+
+  Achieved 2nd place at the Statistics Olympiad RASIO held by Padjadjaran University in 2021 and 3rd place at the Statistics Olympiad POISSON at STIS Polytechnic of Statistics the same year. These competitions involved statistical theory, data analysis, and practical case applications.
+
+  ---
+
+  Feel free to browse my [projects](/projects) or [get in touch](/#contact) if you'd like to collaborate!
+  
 images:
-  - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My coffee workspace
   - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My trip to Tokyo
+    alt: 2nd Place Winner of 2021 Statistics Olympiad at Padjadjaran University
+  - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    alt: Graduation Ceremony on STIS Polytechnic of Statistics
+  - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    alt: 2nd Place Winner of the 2023 LAN Data Hackathon
+  - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    alt: 2023 Observation Learning Program LAN in Thailand
+  

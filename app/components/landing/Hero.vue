@@ -18,27 +18,26 @@ defineProps<{
   >
     <template #headline>
       <Motion
-        :initial="{
-          scale: 1.1,
-          opacity: 0,
-          filter: 'blur(20px)'
-        }"
-        :animate="{
-          scale: 1,
-          opacity: 1,
-          filter: 'blur(0px)'
-        }"
-        :transition="{
-          duration: 0.6,
-          delay: 0.1
-        }"
+      :initial="{
+        scale: 1.1,
+        opacity: 0
+      }"
+      :animate="{
+        scale: 1,
+        opacity: 1
+      }"
+      :transition="{
+        duration: 0.6,
+        delay: 0.1
+      }"
       >
-        <UColorModeAvatar
-          class="size-18 ring ring-default ring-offset-3 ring-offset-(--ui-bg)"
-          :light="global.picture?.light!"
-          :dark="global.picture?.dark!"
-          :alt="global.picture?.alt!"
+      <div class="size-24 ring ring-default ring-offset-3 ring-offset-(--ui-bg) rounded-full overflow-hidden">
+        <img
+        src="/profile.png"
+        alt="Profile Picture"
+        class="w-full h-full object-cover"
         />
+      </div>
       </Motion>
     </template>
 

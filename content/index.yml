@@ -1,12 +1,12 @@
 seo:
-  title: "Emma Thompson - UX/UI Designer"
-  description: "Welcome to my portfolio! I'm Emma Thompson, a UX/UI designer and front-end developer based in Boston. I specialize in creating user-centered digital experiences that are both beautiful and functional."
-title: "Hey, I'm Emma Thompson UX/UI Designer"
-description: "I craft intuitive digital experiences where design meets functionality. Based in Boston, bringing ideas to life through code and creativity."
+  title: "Rezky Yayang (@rezkyyayang) | Portfolio"
+  description: "Welcome to my portfolio! I'm Rezky Yayang, a fresh graduate with a Bachelor's degree in Applied Statistics and now working as a Junior Statistician. I'm passionate about programming and data analysis. I am also interested in research, writing, and graphic design."
+title: "Hey, I'm Rezky Yayang (@rezkyyayang)"
+description: "Analyze data to uncover insights and craft solutions where statistics meets programming. Based in Indonesia, turning data into actionable knowledge with precision and creativity."
 hero:
   links:
-    - label: "Use this template"
-      to: https://github.com/nuxt-ui-pro/portfolio
+    - label: "Latest Projects"
+      to: /projects
       color: "neutral"
   images:
     - src: https://picsum.photos/468/468?random=1
@@ -30,32 +30,28 @@ hero:
 about:
   title: "About Me"
   description: |
-    As a UX/UI designer and front-end developer with 6 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
-    My approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
+    As a fresh graduate with a Bachelor's degree in Applied Statistics from STIS Polytechnic of Statistics, I am now working as a Junior Statistician at National Public Administration Institution (Government). With 3 years of experience, I have honed my skills in programming and data analysis, combining statistical knowledge with technical expertise to uncover insights and solve complex problems. Beyond my professional pursuits, I have a keen interest in research, writing, and graphic design, which allows me to explore creativity and innovation in various fields.
 experience:
   title: Work Experience
   items:
-    - position: "Brand Designer at"
-      date: "2023 - Present"
+    - position: "Junior Statistician at"
+      date: "Feb 2023 - Present"
       company:
-        name: Nuxt
-        logo: "i-simple-icons-nuxtdotjs"
-        url: "https://nuxt.com"
-        color: "#00DC82"
-    - position: "Assets Designer at"
-      date: "2022 - 2023"
+        name: LANRI
+        url: "https://lan.go.id"
+        color: "#FF6347"
+    - position: "Statistician Intern at"
+      date: "Sept 2022 - Jan 2023"
       company:
-        name: Raycast
-        logo: "i-simple-icons-raycast"
-        url: "https://raycast.com"
-        color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
-      date: "2020 - 2021"
+        name: BPS
+        url: "https://bps.go.id"
+        color: "#1271b5"
+    - position: "Freelance Writer at"
+      date: "Sept 2019 - Sept 2021"
       company:
-        name: Linear
-        logo: "i-simple-icons-linear"
-        url: "https://linear.app"
-        color: "#5E6AD2"
+        name: Mojok.co
+        url: "https://mojok.co/terminal/author/rezky-yayang-yakhamid"
+        color: "#348b04"
 testimonials:
   - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
     author:

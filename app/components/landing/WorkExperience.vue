@@ -42,8 +42,8 @@ defineProps<{
               class="inline-flex items-center gap-1"
               :style="{ color: experience.company.color }"
             >
-              <span class="font-medium">{{ experience.company.name }}</span>
-              <UIcon :name="experience.company.logo" />
+              <span class="text-sm text-bold">{{ experience.company.name }}</span>
+                <!-- <UIcon :name="experience.company.logo" /> -->
             </div>
           </ULink>
         </Motion>
