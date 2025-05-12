@@ -27,11 +27,6 @@ function mapNavigation(items: ContentNavigationItem[]): { label: string; path: s
   }));
 }
 
-const breadcrumb = computed(() => {
-  const rawBreadcrumb = findBreadcrumb(blogNavigation, page.value.path);
-  return mapNavigation(rawBreadcrumb);
-});
-
 const route = useRoute()
 
 const { data: page } = await useAsyncData(route.path, () =>
@@ -47,7 +42,10 @@ const { data: surround } = await useAsyncData(`${route.path}-surround`, () =>
 const navigation = inject<Ref<ContentNavigationItem[]>>('navigation', ref([]))
 const blogNavigation = computed(() => navigation.value.find(item => item.path === '/blog')?.children || [])
 
-const breadcrumb = computed(() => mapContentNavigation(findPageBreadcrumb(blogNavigation?.value, page.value)).map(({ icon, ...link }) => link))
+const breadcrumb = computed(() => {
+  const rawBreadcrumb = findBreadcrumb(blogNavigation, page.value.path);
+  return mapNavigation(rawBreadcrumb);
+});
 
 if (page.value.image) {
   defineOgImage({ url: page.value.image })
