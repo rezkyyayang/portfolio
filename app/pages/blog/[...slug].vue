@@ -1,6 +1,36 @@
 <script setup lang="ts">
 import type { ContentNavigationItem } from '@nuxt/content'
-import { findPageBreadcrumb, mapContentNavigation } from '@ui/utils/content'
+
+function findBreadcrumb(navigation: ContentNavigationItem[], path: string): ContentNavigationItem[] {
+  const breadcrumb: ContentNavigationItem[] = [];
+  const findPath = (items: ContentNavigationItem[], targetPath: string): boolean => {
+    for (const item of items) {
+      breadcrumb.push(item);
+      if (item.path === targetPath) {
+        return true;
+      }
+      if (item.children && findPath(item.children, targetPath)) {
+        return true;
+      }
+      breadcrumb.pop();
+    }
+    return false;
+  };
+  findPath(navigation, path);
+  return breadcrumb;
+}
+
+function mapNavigation(items: ContentNavigationItem[]): { label: string; path: string }[] {
+  return items.map(({ title, path }) => ({
+    label: title || '',
+    path: path || ''
+  }));
+}
+
+const breadcrumb = computed(() => {
+  const rawBreadcrumb = findBreadcrumb(blogNavigation, page.value.path);
+  return mapNavigation(rawBreadcrumb);
+});
 
 const route = useRoute()
 
