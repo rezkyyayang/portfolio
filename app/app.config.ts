@@ -35,6 +35,11 @@ export default defineAppConfig({
     credits: `Copyright © ${new Date().getFullYear()}`,
     colorMode: false,
     links: [{
+      'icon': 'i-simple-icons-linkedin',
+      'to': 'https://linkedin.com/in/rezkyyayang',
+      'target': '_blank',
+      'aria-label': 'rezkyyayang on LinkedIn'
+    },{
       'icon': 'i-simple-icons-facebook',
       'to': 'https://facebook.com/rezkyyayang',
       'target': '_blank',
