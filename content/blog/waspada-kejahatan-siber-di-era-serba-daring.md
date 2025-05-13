@@ -12,7 +12,8 @@ author:
 ---
 
 Sehubungan dengan arus globalisasi yang semakin deras, saat ini, orang-orang cenderung tidak lagi menyimpan uangnya di dompet lipat mereka. Pesatnya kemajuan teknologi, khususnya di perkotaan, membuat uang fisik sudah sangat jarang digunakan. Bagaimana tidak, mulai dari ongkos wara-wiri, urusan perut, hingga keperluan sehari-hari semua sudah dapat menggunakan dompet digital. Mulai dari m-banking, e-money, e-wallet, hingga sistem terbaru keluaran Bank Indonesia, QRIS, memudahkan kita dalam bertransaksi multi-platform. Kemajuan teknologi perbankan tersebut mengubah setiap sendi kehidupan kita sampai-sampai sebagian besar orang malah lebih takut tidak terhubung ke internet dibandingkan ketinggalan dompetnya.
-Selain dampak positif dalam hal kemudahan bertransaksi daring, kemajuan teknologi juga memiliki dampak negatif kejahatan siber (cyber crime) seperti pencurian data.
+
+> Selain dampak positif dalam hal kemudahan bertransaksi daring, kemajuan teknologi juga memiliki dampak negatif kejahatan siber (cyber crime) seperti pencurian data.
 
 Dari data yang dirilis oleh Bank Indonesia, jumlah transaksi elektronik mulai meningkat sejak tahun 2012 pada saat awal booming-nya internet di Indonesia. Saat itu, jumlah transaksi elektronik mencapai total 100.635 transaksi. Delapan tahun berselang, pada tahun 2020, jumlah transaksi elektronik meningkat 150 kali lipatnya menembus angka 15.043.475 transaksi dengan nilai transaksi mencapai 504.956 miliar rupiah. Lebih lengkapnya, data jumlah transaksi ditampilkan pada line chart berikut.
 
