@@ -13,7 +13,7 @@ author:
 
 Beberapa minggu yang lalu, bocornya sertifikat vaksin presiden Jokowi menjadi trending di dunia maya selama berhari-hari. Bocornya sertifikat vaksin tersebut dikarenakan Nomor Induk Kependudukan (NIK) Jokowi bocor oleh KPU, memang sengaja dibocorkan dengan seizin Presiden yang saat ini mencalonkan diri menjadi calon Presiden.
 
-Saya sebenarnya saya sendiri juga masih mencari-cari, sebenarnya apa masalahnya kalau NIK bocor? Bukannya memang NIK tersebut dengan mudahnya ditebak ya? Jika dihitung menggunakan formula kombinatorika, angka dalam NIK yang berjumlah 16 digit akan menghasilkan sebanyak 10 16kombinasi atau 100 kuadriliun.
+Saya sebenarnya saya sendiri juga masih mencari-cari, sebenarnya apa masalahnya kalau NIK bocor? Bukannya memang NIK tersebut dengan mudahnya ditebak ya? Jika dihitung menggunakan formula kombinatorika, angka dalam NIK yang berjumlah 16 digit akan menghasilkan sebanyak 10^16 kombinasi atau 100 kuadriliun.
 
 Eits, tunggu dulu. Jika dicermati, ternyata nggak sampai sebanyak itu loh. Faktanya, 16 digit NIK terbagi menjadi tujuh bagian dengan setiap bagiannya merepresentasikan atribut data kependudukan Anda. Berikut ulasannya.
 
