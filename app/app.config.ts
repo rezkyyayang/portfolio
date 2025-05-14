@@ -59,6 +59,11 @@ export default defineAppConfig({
       'to': 'https://github.com/rezkyyayang',
       'target': '_blank',
       'aria-label': 'rezkyyayang on GitHub'
+    }, {
+      'icon': 'i-simple-icons-medium',
+      'to': 'https://medium.com/rezkyyayang',
+      'target': '_blank',
+      'aria-label': 'rezkyyayang on Medium'
     }]
   }
 })
