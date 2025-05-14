@@ -18,7 +18,7 @@ Saya sebenarnya saya sendiri juga masih mencari-cari, sebenarnya apa masalahnya 
 Eits, tunggu dulu. Jika dicermati, ternyata nggak sampai sebanyak itu loh. Faktanya, 16 digit NIK terbagi menjadi tujuh bagian dengan setiap bagiannya merepresentasikan atribut data kependudukan Anda. Berikut ulasannya.
 
 <div style="text-align: center;">
-  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/0*v8Hbn1EjI2KwJXRf.png" alt="Permainan Kelereng Gganbu" style="width: 90%; max-width: 600px;">
+  <img src="https://miro.medium.com/v2/resize:fit:1100/format:webp/0*v8Hbn1EjI2KwJXRf.png" alt="Susunan Nomor Induk Kependudukan (NIK)" style="width: 90%; max-width: 600px;">
 </div>
 
 Saya ternyata salah menduga 6 digit pertama ini terdapat 10^6 atau 10 juta kombinasi. Keenam digit tersebut yakni dengan rincian: 2 digit pertama merupakan kode provinsi, 2 digit kedua merupakan kode kabupaten, 2 digit ketiga merupakan kode kecamatan. Dari informasi tersebut maka jumlah kemungkinan 6 digit pertama sama dengan jumlah kecamatan di Indonesia. Menurut data dari BPS, terdapat 7.252 kecamatan di Indonesia pada tahun 2019.
