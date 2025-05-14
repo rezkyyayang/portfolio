@@ -9,24 +9,16 @@ hero:
       to: /projects
       color: "neutral"
   images:
-    - src: https://picsum.photos/468/468?random=1
-      alt: Random Image 1
-    - src: https://picsum.photos/468/468?random=2
-      alt: Random Image 2
-    - src: https://picsum.photos/468/468?random=3
-      alt: Random Image 3
-    - src: https://picsum.photos/468/468?random=4
-      alt: Random Image 4
-    - src: https://picsum.photos/468/468?random=5
-      alt: Random Image 5
-    - src: https://picsum.photos/468/468?random=6
-      alt: Random Image 6
-    - src: https://picsum.photos/468/468?random=6
-      alt: Random Image 6
-    - src: https://picsum.photos/468/468?random=7
-      alt: Random Image 7
-    - src: https://picsum.photos/468/468?random=8
-      alt: Random Image 8
+    - src: /img/graduation.JPG
+      alt: 2022 Graduation Ceremony on STIS Polytechnic of Statistics
+    - src: /img/datathon.JPG
+      alt: 2nd Place Winner of the 2023 LAN Data Hackathon
+    - src: /img/makarti.JPG
+      alt: 2023 LAN Award Makarti Bhakti Nagari on LAN Data Hackathon
+    - src: /img/thailand.jpg
+      alt: 2023 Observation Learning Program LAN in Thailand
+    - src: /img/pelantikan.jpeg
+      alt: Inauguration Ceremony for Civil Servants in the Junior Statistician Role
 about:
   title: "About Me"
   description: |
