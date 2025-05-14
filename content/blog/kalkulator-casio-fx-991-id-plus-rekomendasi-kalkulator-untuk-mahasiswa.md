@@ -2,7 +2,7 @@
 title: Kalkulator Casio fx-991 ID PLUS, Rekomendasi Kalkulator untuk Mahasiswa
 description: Tentu bukan tanpa alasan saya membeli kalkulator Casio fx-991 ID PLUS. Casio jenis ini memang memiliki spesifikasi yang lebih bagus dari Casio jenis lain, khususnya Casio fx-350MS yang pernah saya miliki saat SMA MIPA dulu. Kalkulator berperawakan hitam abu-abu tersebut sangat tidak user-friendy untuk pengolahan data statistik.
 date: 2020-07-16
-image: http://www.sahabatutama.com/assets/skin/plugins/ckfinder/userfiles/images/fitur%20casio.JPG
+image: img/casio-fx-991-id.jpeg
 minRead: 15
 author:
   name: Rezky Yayang (@rezkyyayang)
