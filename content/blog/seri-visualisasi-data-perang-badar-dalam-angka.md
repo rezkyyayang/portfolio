@@ -1,7 +1,7 @@
 ---
 title: Seri Visualisasi Data​, Perang Badar Dalam Angka, Bagaimana Muslim Memenangkan Perang?
 description:  Perang Badar atau Pertempuran Badar (غزوة بدر) adalah salah satu peristiwa penting dalam sejarah awal Islam. Pertempuran ini terjadi pada tanggal 17 Ramadan tahun kedua Hijriyah, yakni 2 tahun setelah Nabi Muhammad SAW hijrah ke Madinah.
-date: 2024-04-12
+date: 2024-03-11
 image: /img/perang-badar-dalam-angka.png
 minRead: 15
 author:
