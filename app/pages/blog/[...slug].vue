@@ -1,7 +1,5 @@
 <script setup lang="ts">
 import type { ContentNavigationItem } from '@nuxt/content'
-import katex from 'katex'
-import 'katex/dist/katex.min.css'
 
 function findBreadcrumb(navigation: ContentNavigationItem[], path: string): ContentNavigationItem[] {
   const breadcrumb: ContentNavigationItem[] = [];
@@ -78,22 +76,6 @@ const formatDate = (dateString: Date) => {
     day: 'numeric'
   })
 }
-
-const LatexRenderer = {
-  props: {
-    content: {
-      type: String,
-      required: true
-    }
-  },
-  setup(props: { content: string }) {
-    return () =>
-      h('div', {
-        innerHTML: katex.renderToString(props.content, { throwOnError: false })
-      })
-  }
-}
-
 </script>
 
 <template>
@@ -144,7 +126,6 @@ const LatexRenderer = {
           <ContentRenderer
             v-if="page.body"
             :value="page"
-            :components="{ latex: LatexRenderer }"
           />
 
           <div class="flex items-center justify-end gap-2 text-sm text-muted">

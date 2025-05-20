@@ -14,8 +14,8 @@ author:
 ## ✏️ Soal 1
 
 Jika suku banyak
-$ax^3 + 2x^2 + 5x + b$
-dibagi $(x^2 - 1)$ menghasilkan sisa $6x + 5$, maka $a + 3b$ sama dengan ...
+\\( ax^3 + 2x^2 + 5x + b \\)
+dibagi \\( (x^2 - 1) \\) menghasilkan sisa \\( 6x + 5 \\), maka \\( a + 3b \\) sama dengan ...
 A. 15
 B. 12
 C. 10
@@ -24,18 +24,16 @@ E. 5
 
 ### 🧠 Pembahasan
 
-Diketahui bahwa sisa pembagian suatu polinomial $P(x)$ dengan $x^2 - 1 = (x-1)(x+1)$ adalah bentuk linear $6x + 5$.
+Diketahui bahwa sisa pembagian suatu polinomial \\( P(x) \\) dengan \\( x^2 - 1 = (x-1)(x+1) \\) adalah bentuk linear $6x + 5$.
 Artinya:
 
-```latex
-$$
+\\[
 P(x) = (x^2 - 1) \cdot Q(x) + 6x + 5
-$$
-```
+\\]
 
-Untuk menemukan hubungan $a + 3b$, kita substitusikan $x = 1$ dan $x = -1$ ke dalam $P(x) = ax^3 + 2x^2 + 5x + b$:
+Untuk menemukan hubungan  \\( a + 3b \\), kita substitusikan \\( x = 1 \\) dan \\( x = -1 \\) ke dalam \\( P(x) = ax^3 + 2x^2 + 5x + b \\):
 
-1. Untuk $x = 1$:
+1. Untuk \\( x = 1 \\):
 
 $$
 P(1) = a(1)^3 + 2(1)^2 + 5(1) + b = a + 2 + 5 + b = a + b + 7
