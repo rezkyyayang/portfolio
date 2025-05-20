@@ -21,7 +21,7 @@ dibagi \\( (x^2 - 1) \\) menghasilkan sisa \\( 6x + 5 \\), maka \\( a + 3b \\) s
 
 - [ ] A. 15  
 - [ ] B. 12  
-- [x] C. 10  
+- [ ] C. 10  
 - [ ] D. 8  
 - [ ] E. 5  
 
@@ -110,11 +110,11 @@ $$
 
 Jika $x_1, k, x_2$ merupakan tiga suku pertama dari suatu **deret geometri**, maka rumus suku ke-$n$ dari deret tersebut adalah ...
 
-- [ ] \\( 1 - (-1)^n \\)
-- [ ] \\( 1 + (-1)^n \\)
-- [x] \\( (-1)^n \\)
-- [ ] \\( 2(-1)^n \\)
-- [ ] \\( -1 \\)
+- [ ] A. \\( 1 - (-1)^n \\)
+- [ ] B. \\( 1 + (-1)^n \\)
+- [ ] C. \\( (-1)^n \\)
+- [ ] D. \\( 2(-1)^n \\)
+- [ ] E. \\( -1 \\)
 
 <details>
 <summary>✅ **Cek Jawaban**</summary>
