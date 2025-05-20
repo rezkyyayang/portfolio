@@ -26,14 +26,14 @@ dibagi \\( (x^2 - 1) \\) menghasilkan sisa \\( 6x + 5 \\), maka \\( a + 3b \\) s
 - [ ] E. 5  
 
 <details>
-<summary>✅ **Cek Jawaban**</summary>
+<summary>✅ Cek Jawaban</summary>
 
 Jawaban yang benar adalah **C. 10**.
 
 </details>
 
 <details>
-<summary>🧠 **Lihat Pembahasan**</summary>
+<summary>🧠 Lihat Pembahasan</summary>
 
 Diketahui bahwa sisa pembagian suatu polinomial \\( P(x) \\) dengan \\( x^2 - 1 = (x-1)(x+1) \\) adalah bentuk linear $6x + 5$.
 Artinya:
@@ -117,7 +117,7 @@ Jika $x_1, k, x_2$ merupakan tiga suku pertama dari suatu **deret geometri**, ma
 - [ ] E. \\( -1 \\)
 
 <details>
-<summary>✅ **Cek Jawaban**</summary>
+<summary>✅ Cek Jawaban</summary>
 
 Jawaban yang benar adalah **C. 10**.
 
