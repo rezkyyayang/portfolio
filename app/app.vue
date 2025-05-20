@@ -1,6 +1,26 @@
 <script setup lang="ts">
-const colorMode = useColorMode()
+import { watch } from 'vue'
+import { useRoute } from 'vue-router'
 
+const route = useRoute()
+
+// Extend the Window interface to include MathJax
+declare global {
+  interface Window {
+    MathJax?: {
+      typesetPromise: () => Promise<void>;
+    };
+  }
+}
+
+// 🔁 Trigger MathJax ketika route berubah
+watch(() => route.fullPath, () => {
+  if (window.MathJax) {
+    window.MathJax.typesetPromise()
+  }
+})
+
+const colorMode = useColorMode()
 const color = computed(() => colorMode.value === 'dark' ? '#020618' : 'white')
 
 useHead({
