@@ -9,21 +9,21 @@ hero:
       to: /projects
       color: "neutral"
   images:
-    - src: /img/graduation_sq.JPG
+    - src: /img/me/graduation_sq.JPG
       alt: 2022 Graduation Ceremony on STIS Polytechnic of Statistics
-    - src: /img/datathon1_sq.JPG
+    - src: /img/me/datathon1_sq.JPG
       alt: Presentation at 2023 LAN Data Hackathon Final Demo Day
-    - src: /img/datathon_sq.JPG
+    - src: /img/me/datathon_sq.JPG
       alt: 2nd Place Winner of the 2023 LAN Data Hackathon
-    - src: /img/datathon2_sq.JPG
+    - src: /img/me/datathon2_sq.JPG
       alt: Presentation at 2023 LAN Data Hackathon Final Demo Day
-    - src: /img/makarti_sq.JPG
+    - src: /img/me/makarti_sq.JPG
       alt: 2023 LAN Award Makarti Bhakti Nagari on LAN Data Hackathon
-    - src: /img/thailand.jpg
+    - src: /img/me/thailand.jpg
       alt: 2023 Observation Learning Program LAN in Thailand
-    - src: /img/thailand2.jpg
+    - src: /img/me/thailand2.jpg
       alt: 2023 Observation Learning Program LAN in Thailand
-    - src: /img/pelantikan.jpeg
+    - src: /img/me/pelantikan.jpeg
       alt: Inauguration Ceremony for Civil Servants in the Junior Statistician Role
 about:
   title: "About Me"

@@ -1,6 +1,6 @@
 title: Dashboard IDC LAN
 description: The Integrated Data Center (IDC) Dashboard LAN serves as a comprehensive hub of diverse data visualizations, encompassing both public and internal analytics for the National Institute of Public Administration. This platform is seamlessly connected to the databases of multiple applications, enabling real-time insights and fostering data-driven decision-making. By integrating advanced analytics and visualization tools, the dashboard empowers stakeholders to explore, interpret, and act on critical information with ease and efficiency.
-image: /img/1701525968268.jpeg
+image: /img/project/1701525968268.jpeg
 url: "https://dashboard.lan.go.id/"
 tags: ["Looker Studio", "Data Analytics", "Data Visualization"]
 date: "2023"

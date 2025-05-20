@@ -1,6 +1,6 @@
 title: Worker Wellbeing Dashboard (PekerjaSejahtera)
 description: As someone who has just entered the workforce, we may all experience confusion starting from which area we will work in, how much wages we will earn, and whether the income will be sufficient for daily needs. This dashboard aims to assist workers in choosing a workplace based on several variables such as income and expenses. These factors make the Prosperous Worker Dashboard very important and relevant due to the highly competitive job market, where workers need careful planning, including considering their welfare based on the choices they have made.
-image: /img/1691551031222.jpeg
+image: /img/project/1691551031222.jpeg
 url: "https://rezkyyayang.shinyapps.io/PekerjaSejahtera/"
 tags: ["R Shiny", "Data Analytics", "Web Development", "Data Visualization"]
 date: "2023"
