@@ -1,24 +1,33 @@
 <script setup lang="ts">
-import { watch } from 'vue'
+import { watch, onMounted, nextTick } from 'vue'
 import { useRoute } from 'vue-router'
 
-const route = useRoute()
-
-// Extend the Window interface to include MathJax
 declare global {
   interface Window {
     MathJax?: {
-      typesetPromise: () => Promise<void>;
+      typesetPromise?: () => Promise<void>;
     };
   }
 }
 
-// 🔁 Trigger MathJax ketika route berubah
-watch(() => route.fullPath, () => {
-  if (window.MathJax) {
-    window.MathJax.typesetPromise()
-  }
+const route = useRoute()
+
+function renderMathJax() {
+  nextTick(() => {
+    if (window.MathJax?.typesetPromise) {
+      window.MathJax.typesetPromise().catch(err => console.error('MathJax render error:', err))
+    }
+  })
+}
+
+onMounted(() => {
+  renderMathJax()
 })
+
+watch(() => route.fullPath, () => {
+  renderMathJax()
+})
+
 
 const colorMode = useColorMode()
 const color = computed(() => colorMode.value === 'dark' ? '#020618' : 'white')
@@ -65,13 +74,13 @@ const [{ data: navigation }, { data: files }] = await Promise.all([
 
 <template>
   <UApp>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
     <NuxtLayout>
       <UMain class="relative">
         <NuxtPage />
       </UMain>
-      <script type="text/javascript" id="MathJax-script" async
-      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-    </script>
     </NuxtLayout>
 
     <ClientOnly>
