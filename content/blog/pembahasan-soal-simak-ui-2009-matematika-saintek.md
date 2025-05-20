@@ -11,6 +11,19 @@ author:
     alt: Rezky Yayang (@rezkyyayang)
 ---
 
+## Daftar Isi
+```html
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    {% for i in range(1, 15) %}
+    <a href="#✏️-soal-{{ i }}" style="text-decoration: none;">
+        <button style="padding: 10px; background-color: #0078D4; color: white; border: none; border-radius: 5px; cursor: pointer; width: 50px;">
+            {{ i }}
+        </button>
+    </a>
+    {% endfor %}
+</div>
+```
+
 ## ✏️ Soal 1
 
 Jika suku banyak
@@ -108,7 +121,7 @@ $$
 x^2 - (2k + 4)x + (3k + 4) = 0
 $$
 
-Jika $x_1, k, x_2$ merupakan tiga suku pertama dari suatu **deret geometri**, maka rumus suku ke-$n$ dari deret tersebut adalah ...
+Jika \\( x_1, k, x_2 \\) merupakan tiga suku pertama dari suatu **deret geometri**, maka rumus suku ke-\\( n \\) dari deret tersebut adalah ...
 
 - [ ] A. \\( 1 - (-1)^n \\)
 - [ ] B. \\( 1 + (-1)^n \\)
@@ -215,18 +228,18 @@ Diketahui persamaan kuadrat
 $$
 x^2 + px - p^2 + 7p - 6 = 0.
 $$
-Nilai $ p $ agar persamaan kuadrat tersebut mempunyai dua akar berlawanan tanda adalah ...
+Nilai \\( p \\) agar persamaan kuadrat tersebut mempunyai dua akar berlawanan tanda adalah ...
 
-- [ ] A. $ 1 \frac{1}{2} < p < 2 $ atau $ p > 3 $ atau $ p < 1 $
-- [ ] B. $ 1 < p < 1 \frac{1}{2} $
-- [ ] C. $ 1 \frac{1}{2} < p < 3 $
-- [ ] D. $ p < 1 $ atau $ p > 6 $
-- [ ] E. $ p < 1 \frac{1}{2} $ atau $ p > 2 $
+- [ ] A. \\( 1 \frac{1}{2} < p < 2 \\) atau \\( p > 3 $ atau $ p < 1 \\)
+- [ ] B. \\( 1 < p < 1 \frac{1}{2} \\)
+- [ ] C. \\( 1 \frac{1}{2} < p < 3 \\)
+- [ ] D. \\( p < 1 \\) atau \\( p > 6 \\)
+- [ ] E. \\( p < 1 \frac{1}{2} \\) atau \\( p > 2 \\)
 
 <details>
 <summary>✅ Cek Jawaban</summary>
 
-Jawaban yang benar adalah **D. $ p < 1 $ atau $ p > 6 $**.
+Jawaban yang benar adalah **D. \\( p < 1 $ atau $ p > 6 \\)**.
 
 </details>
 
@@ -239,10 +252,10 @@ $$
 \text{Hasil kali akar-akar} = \frac{c}{a}.
 $$
 
-Pada persamaan $ x^2 + px - p^2 + 7p - 6 = 0 $, kita memiliki:
-- Koefisien $ a = 1 $,
-- Koefisien $ b = p $,
-- Konstanta $ c = -p^2 + 7p - 6 $.
+Pada persamaan \\( x^2 + px - p^2 + 7p - 6 = 0 \\), kita memiliki:
+- Koefisien \\( a = 1 \\),
+- Koefisien \\( b = p \\),
+- Konstanta \\( c = -p^2 + 7p - 6 \\).
 
 Oleh karena itu, hasil kali akar-akarnya adalah:
 $$
@@ -254,56 +267,56 @@ $$
 -p^2 + 7p - 6 < 0.
 $$
 
-#### Langkah 2: Selesaikan Pertidaksamaan $ -p^2 + 7p - 6 < 0 $
-Kita selesaikan pertidaksamaan $ -p^2 + 7p - 6 < 0 $. Pertama, ubah bentuknya menjadi:
+#### Langkah 2: Selesaikan Pertidaksamaan \\( -p^2 + 7p - 6 < 0 \\)
+Kita selesaikan pertidaksamaan \\( -p^2 + 7p - 6 < 0 \\). Pertama, ubah bentuknya menjadi:
 $$
 p^2 - 7p + 6 > 0.
 $$
 
 ##### Langkah 2.1: Faktorkan Persamaan Kuadrat
-Faktorkan $ p^2 - 7p + 6 = 0 $:
+Faktorkan \\( p^2 - 7p + 6 = 0 \\):
 $$
 p^2 - 7p + 6 = (p - 1)(p - 6).
 $$
 
-Jadi, persamaan $ p^2 - 7p + 6 = 0 $ memiliki akar-akar:
+Jadi, persamaan \\( p^2 - 7p + 6 = 0 \\) memiliki akar-akar:
 $$
 p = 1 \quad \text{dan} \quad p = 6.
 $$
 
 ##### Langkah 2.2: Gambarkan Grafik atau Gunakan Uji Interval
-Persamaan $ p^2 - 7p + 6 > 0 $ memiliki grafik parabola yang membuka ke atas (karena koefisien $ p^2 $ positif). Akar-akarnya adalah $ p = 1 $ dan $ p = 6 $. Untuk menentukan interval di mana $ p^2 - 7p + 6 > 0 $, uji nilai $ p $ di setiap interval yang dibentuk oleh akar-akar tersebut, yaitu:
-- Interval $ (-\infty, 1) $,
-- Interval $ (1, 6) $,
-- Interval $ (6, \infty) $.
+Persamaan \\( p^2 - 7p + 6 > 0 \\) memiliki grafik parabola yang membuka ke atas (karena koefisien \\( p^2 \\) positif). Akar-akarnya adalah \\( p = 1 \\) dan \\( p = 6 \\). Untuk menentukan interval di mana \\( p^2 - 7p + 6 > 0 \\), uji nilai \\( p \\) di setiap interval yang dibentuk oleh akar-akar tersebut, yaitu:
+- Interval \\( (-\infty, 1) \\),
+- Interval \\( (1, 6) \\),
+- Interval \\( (6, \infty) \\).
 
 **Uji Interval:**
-1. **Interval $ (-\infty, 1) $**: Pilih $ p = 0 $,
+1. **Interval \\( (-\infty, 1) \\)**: Pilih \\( p = 0 \\),
    $$
    p^2 - 7p + 6 = 0^2 - 7(0) + 6 = 6 > 0.
    $$
 
-2. **Interval $ (1, 6) $**: Pilih $ p = 3 $,
+2. **Interval \\( (1, 6) \\)**: Pilih \\( p = 3 \\),
    $$
    p^2 - 7p + 6 = 3^2 - 7(3) + 6 = 9 - 21 + 6 = -6 < 0.
    $$
 
-3. **Interval $ (6, \infty) $**: Pilih $ p = 7 $,
+3. **Interval \\( (6, \infty) \\)**: Pilih \\( p = 7 \\),
    $$
    p^2 - 7p + 6 = 7^2 - 7(7) + 6 = 49 - 49 + 6 = 6 > 0.
    $$
 
-Dari uji interval, kita simpulkan bahwa $ p^2 - 7p + 6 > 0 $ untuk:
+Dari uji interval, kita simpulkan bahwa \\( p^2 - 7p + 6 > 0 \\) untuk:
 $$
 p \in (-\infty, 1) \cup (6, \infty).
 $$
 
 #### Langkah 3: Kesimpulan
-Agar persamaan kuadrat $ x^2 + px - p^2 + 7p - 6 = 0 $ memiliki dua akar berlawanan tanda, nilai $ p $ harus memenuhi:
+Agar persamaan kuadrat \\( x^2 + px - p^2 + 7p - 6 = 0 \\) memiliki dua akar berlawanan tanda, nilai \\( p \\) harus memenuhi:
 $$
 p < 1 \quad \text{atau} \quad p > 6.
 $$
 
-> **Jawaban: (D) $ p < 1 $ atau $ p > 6 $**
+> **Jawaban: (D) \\( p < 1 $ atau $ p > 6 \\)**
 
 </details>
