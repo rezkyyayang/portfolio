@@ -27,9 +27,11 @@ E. 5
 Diketahui bahwa sisa pembagian suatu polinomial $P(x)$ dengan $x^2 - 1 = (x-1)(x+1)$ adalah bentuk linear $6x + 5$.
 Artinya:
 
+```markdown
 $$
 P(x) = (x^2 - 1) \cdot Q(x) + 6x + 5
 $$
+```
 
 Untuk menemukan hubungan $a + 3b$, kita substitusikan $x = 1$ dan $x = -1$ ke dalam $P(x) = ax^3 + 2x^2 + 5x + b$:
 
@@ -73,10 +75,12 @@ $$
 
 Jumlahkan kedua persamaan:
 
+```markdown
 $$
 (a + b) + (-a + b) = 4 + 2 \Rightarrow 2b = 6 \Rightarrow b = 3
 \Rightarrow a = 1 \quad \text{(dari a + b = 4)}
 $$
+```
 
 Jadi:
 

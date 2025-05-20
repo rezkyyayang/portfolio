@@ -14,17 +14,7 @@ export default defineNuxtConfig({
     enabled: true
   },
 
-  content: {
-    markdown: {
-      remarkPlugins: ['remark-math'],
-      rehypePlugins: ['rehype-katex']
-    }
-  },
-
-  css: [
-    '~/assets/css/main.css',
-    'katex/dist/katex.min.css'
-  ],
+  css: ['~/assets/css/main.css'],
 
   future: {
     compatibilityVersion: 4
