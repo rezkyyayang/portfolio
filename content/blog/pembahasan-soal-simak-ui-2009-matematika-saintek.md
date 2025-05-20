@@ -27,7 +27,7 @@ E. 5
 Diketahui bahwa sisa pembagian suatu polinomial $P(x)$ dengan $x^2 - 1 = (x-1)(x+1)$ adalah bentuk linear $6x + 5$.
 Artinya:
 
-```markdown
+```latex
 $$
 P(x) = (x^2 - 1) \cdot Q(x) + 6x + 5
 $$
