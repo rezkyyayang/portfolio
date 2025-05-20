@@ -1,5 +1,5 @@
 ---
-title: Pembahasan Soal SIMAK UI 2009 Matematika Saintek
+title: Soal dan Pembahasan SIMAK UI 2009 Matematika Saintek
 description: SIMAK UI (Seleksi Masuk Universitas Indonesia) adalah jalur seleksi mandiri yang diselenggarakan langsung oleh Universitas Indonesia (UI) untuk penerimaan mahasiswa baru.
 date: 2025-05-20
 image: https://images.unsplash.com/photo-1655543274920-06de452d0d02?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
@@ -206,5 +206,104 @@ U_n = (-1)^n
 $$
 
 > **Jawaban: (C) \\( (-1)^n \\)**
+
+</details>
+---
+
+## ✏️ Soal 3
+Diketahui persamaan kuadrat
+$$
+x^2 + px - p^2 + 7p - 6 = 0.
+$$
+Nilai $ p $ agar persamaan kuadrat tersebut mempunyai dua akar berlawanan tanda adalah ...
+
+- [ ] A. $ 1 \frac{1}{2} < p < 2 $ atau $ p > 3 $ atau $ p < 1 $
+- [ ] B. $ 1 < p < 1 \frac{1}{2} $
+- [ ] C. $ 1 \frac{1}{2} < p < 3 $
+- [ ] D. $ p < 1 $ atau $ p > 6 $
+- [ ] E. $ p < 1 \frac{1}{2} $ atau $ p > 2 $
+
+<details>
+<summary>✅ Cek Jawaban</summary>
+
+Jawaban yang benar adalah **D. $ p < 1 $ atau $ p > 6 $**.
+
+</details>
+
+<details>
+<summary>🧠 Lihat Pembahasan</summary>
+
+#### Langkah 1: Syarat Akar Berlawanan Tanda
+Untuk suatu persamaan kuadrat $ ax^2 + bx + c = 0 $, dua akarnya berlawanan tanda jika dan hanya jika hasil kali kedua akarnya negatif. Dalam persamaan kuadrat umum, hasil kali akar-akar diberikan oleh:
+$$
+\text{Hasil kali akar-akar} = \frac{c}{a}.
+$$
+
+Pada persamaan $ x^2 + px - p^2 + 7p - 6 = 0 $, kita memiliki:
+- Koefisien $ a = 1 $,
+- Koefisien $ b = p $,
+- Konstanta $ c = -p^2 + 7p - 6 $.
+
+Oleh karena itu, hasil kali akar-akarnya adalah:
+$$
+\text{Hasil kali akar-akar} = \frac{c}{a} = -p^2 + 7p - 6.
+$$
+
+Agar akar-akarnya berlawanan tanda, haruslah:
+$$
+-p^2 + 7p - 6 < 0.
+$$
+
+#### Langkah 2: Selesaikan Pertidaksamaan $ -p^2 + 7p - 6 < 0 $
+Kita selesaikan pertidaksamaan $ -p^2 + 7p - 6 < 0 $. Pertama, ubah bentuknya menjadi:
+$$
+p^2 - 7p + 6 > 0.
+$$
+
+##### Langkah 2.1: Faktorkan Persamaan Kuadrat
+Faktorkan $ p^2 - 7p + 6 = 0 $:
+$$
+p^2 - 7p + 6 = (p - 1)(p - 6).
+$$
+
+Jadi, persamaan $ p^2 - 7p + 6 = 0 $ memiliki akar-akar:
+$$
+p = 1 \quad \text{dan} \quad p = 6.
+$$
+
+##### Langkah 2.2: Gambarkan Grafik atau Gunakan Uji Interval
+Persamaan $ p^2 - 7p + 6 > 0 $ memiliki grafik parabola yang membuka ke atas (karena koefisien $ p^2 $ positif). Akar-akarnya adalah $ p = 1 $ dan $ p = 6 $. Untuk menentukan interval di mana $ p^2 - 7p + 6 > 0 $, uji nilai $ p $ di setiap interval yang dibentuk oleh akar-akar tersebut, yaitu:
+- Interval $ (-\infty, 1) $,
+- Interval $ (1, 6) $,
+- Interval $ (6, \infty) $.
+
+**Uji Interval:**
+1. **Interval $ (-\infty, 1) $**: Pilih $ p = 0 $,
+   $$
+   p^2 - 7p + 6 = 0^2 - 7(0) + 6 = 6 > 0.
+   $$
+
+2. **Interval $ (1, 6) $**: Pilih $ p = 3 $,
+   $$
+   p^2 - 7p + 6 = 3^2 - 7(3) + 6 = 9 - 21 + 6 = -6 < 0.
+   $$
+
+3. **Interval $ (6, \infty) $**: Pilih $ p = 7 $,
+   $$
+   p^2 - 7p + 6 = 7^2 - 7(7) + 6 = 49 - 49 + 6 = 6 > 0.
+   $$
+
+Dari uji interval, kita simpulkan bahwa $ p^2 - 7p + 6 > 0 $ untuk:
+$$
+p \in (-\infty, 1) \cup (6, \infty).
+$$
+
+#### Langkah 3: Kesimpulan
+Agar persamaan kuadrat $ x^2 + px - p^2 + 7p - 6 = 0 $ memiliki dua akar berlawanan tanda, nilai $ p $ harus memenuhi:
+$$
+p < 1 \quad \text{atau} \quad p > 6.
+$$
+
+> **Jawaban: (D) $ p < 1 $ atau $ p > 6 $**
 
 </details>
