@@ -46,7 +46,7 @@ useHead({
   },
   script: [
     {
-      src: 'https://www.googletagmanager.com/gtag/js?id=G-QE944R4F54 ',
+      src: 'https://www.googletagmanager.com/gtag/js?id=G-EF5T4740VC ',
       async: true,
     },
     {
@@ -54,7 +54,7 @@ useHead({
         window.dataLayer = window.dataLayer || [];
         function gtag(){ dataLayer.push(arguments); }
         gtag('js', new Date());
-        gtag('config', 'G-QE944R4F54');
+        gtag('config', 'G-EF5T4740VC');
       `,
     }
   ]
