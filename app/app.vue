@@ -43,7 +43,21 @@ useHead({
   ],
   htmlAttrs: {
     lang: 'en'
-  }
+  },
+  script: [
+    {
+      src: 'https://www.googletagmanager.com/gtag/js?id=G-QE944R4F54 ',
+      async: true,
+    },
+    {
+      innerHTML: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-QE944R4F54');
+      `,
+    }
+  ]
 })
 
 useSeoMeta({

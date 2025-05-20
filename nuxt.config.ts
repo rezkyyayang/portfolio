@@ -7,17 +7,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@vueuse/nuxt',
     'nuxt-og-image',
-    'motion-v/nuxt',
-    ['@nuxtjs/google-gtag', {
-      id: 'G-QE944R4F54',
-      config: {
-        linker: {
-          domains: ['yourdomain.com']
-        }
-      },
-      debug: false, // set true jika ingin debug
-      disableAutoPageTrack: false, // otomatis lacak route change
-    }],
+    'motion-v/nuxt'
   ],
 
   devtools: {
