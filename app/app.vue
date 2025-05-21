@@ -21,21 +21,8 @@ function renderMathJax() {
 }
 
 onMounted(() => {
-  const observer = new MutationObserver(() => {
-    renderMathJax();
-  });
-
-  observer.observe(document.body, {
-    childList: true,
-    subtree: true,
-  });
-
-  renderMathJax(); // Render awal
-
-  onUnmounted(() => {
-    observer.disconnect(); // Hentikan observer saat komponen dilepas
-  });
-});
+  renderMathJax()
+})
 
 watch(() => route.fullPath, () => {
   renderMathJax()
