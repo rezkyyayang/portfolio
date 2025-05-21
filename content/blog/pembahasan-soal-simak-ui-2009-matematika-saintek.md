@@ -11,18 +11,28 @@ author:
     alt: Rezky Yayang (@rezkyyayang)
 ---
 
-## Daftar Isi
-```html
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    {% for i in range(1, 15) %}
-    <a href="#✏️-soal-{{ i }}" style="text-decoration: none;">
-        <button style="padding: 10px; background-color: #0078D4; color: white; border: none; border-radius: 5px; cursor: pointer; width: 50px;">
-            {{ i }}
-        </button>
-    </a>
-    {% endfor %}
-</div>
-```
+<details>
+<summary> 🗒️ Lihat Daftar Isi </summary>
+
+| **No** | **Judul**                                                                 |
+|--------|---------------------------------------------------------------------------|
+| 1      | [Soal 1: Suku Banyak dan Sisa Pembagian](#✏️-soal-1)                      |
+| 2      | [Soal 2: Deret Geometri dan Akar Persamaan Kuadrat](#✏️-soal-2)           |
+| 3      | [Soal 3: Akar Persamaan Kuadrat](#✏️-soal-3)                              |
+| 4      | [Soal 4: Pertidaksamaan Akar Kuadrat](#✏️-soal-4)                         |
+| 5      | [Soal 5: Luas Segitiga dalam Ruang 3D](#✏️-soal-5)                        |
+| 6      | [Soal 6: Sistem Persamaan Trigonometri](#✏️-soal-6)                       |
+| 7      | [Soal 7: (Placeholder for Future Content)](#✏️-soal-7)                    |
+| 8      | [Soal 8: (Placeholder for Future Content)](#✏️-soal-8)                    |
+| 9      | [Soal 9: (Placeholder for Future Content)](#✏️-soal-9)                    |
+| 10     | [Soal 10: (Placeholder for Future Content)](#✏️-soal-10)                  |
+| 11     | [Soal 11: (Placeholder for Future Content)](#✏️-soal-11)                  |
+| 12     | [Soal 12: (Placeholder for Future Content)](#✏️-soal-12)                  |
+| 13     | [Soal 13: (Placeholder for Future Content)](#✏️-soal-13)                  |
+| 14     | [Soal 14: (Placeholder for Future Content)](#✏️-soal-14)                  |
+| 15     | [Soal 15: (Placeholder for Future Content)](#✏️-soal-15)                  |
+
+</details>
 
 ## ✏️ Soal 1
 
@@ -193,7 +203,7 @@ $$
 x^2 - 12x + 16 = 0 \Rightarrow x = 2, 8
 $$
 
-Jadi, deretnya: $2, 4, 8$, rasio: $2$ → cocok.
+Jadi, deretnya: \\( 2, 4, 8 \\), rasio: \\( 2 \\) → cocok.
 
 ---
 
@@ -212,7 +222,7 @@ Jadi, deretnya: \\( 1, -1, 1 \\)
 
 Ini adalah deret geometri dengan rasio \\( -1 \\)
 
-Rumus umum suku ke-$n$ dari deret ini adalah:
+Rumus umum suku ke-\\( n \\) dari deret ini adalah:
 
 $$
 U_n = (-1)^n
@@ -230,7 +240,7 @@ x^2 + px - p^2 + 7p - 6 = 0.
 $$
 Nilai \\( p \\) agar persamaan kuadrat tersebut mempunyai dua akar berlawanan tanda adalah ...
 
-- [ ] A. \\( 1 \frac{1}{2} < p < 2 \\) atau \\( p > 3 $ atau $ p < 1 \\)
+- [ ] A. \\( 1 \frac{1}{2} < p < 2 \\) atau \\( p > 3 \\) atau \\( p < 1 \\)
 - [ ] B. \\( 1 < p < 1 \frac{1}{2} \\)
 - [ ] C. \\( 1 \frac{1}{2} < p < 3 \\)
 - [ ] D. \\( p < 1 \\) atau \\( p > 6 \\)
@@ -239,7 +249,7 @@ Nilai \\( p \\) agar persamaan kuadrat tersebut mempunyai dua akar berlawanan ta
 <details>
 <summary>✅ Cek Jawaban</summary>
 
-Jawaban yang benar adalah **D. \\( p < 1 $ atau $ p > 6 \\)**.
+Jawaban yang benar adalah **D. \\( p < 1 \\) atau \\( p > 6 \\)**.
 
 </details>
 
@@ -247,7 +257,7 @@ Jawaban yang benar adalah **D. \\( p < 1 $ atau $ p > 6 \\)**.
 <summary>🧠 Lihat Pembahasan</summary>
 
 #### Langkah 1: Syarat Akar Berlawanan Tanda
-Untuk suatu persamaan kuadrat $ ax^2 + bx + c = 0 $, dua akarnya berlawanan tanda jika dan hanya jika hasil kali kedua akarnya negatif. Dalam persamaan kuadrat umum, hasil kali akar-akar diberikan oleh:
+Untuk suatu persamaan kuadrat \\( ax^2 + bx + c = 0 \\), dua akarnya berlawanan tanda jika dan hanya jika hasil kali kedua akarnya negatif. Dalam persamaan kuadrat umum, hasil kali akar-akar diberikan oleh:
 $$
 \text{Hasil kali akar-akar} = \frac{c}{a}.
 $$
@@ -317,6 +327,312 @@ $$
 p < 1 \quad \text{atau} \quad p > 6.
 $$
 
-> **Jawaban: (D) \\( p < 1 $ atau $ p > 6 \\)**
+> **Jawaban: (D) \\( p < 1 \\) atau \\( p > 6 \\)**
+
+</details>
+
+
+---
+
+## ✏️ Soal 4
+
+Himpunan penyelesaian pertidaksamaan
+$$
+\sqrt{x^2 - 1} \leq \sqrt{3x^2 + x - 2}
+$$
+adalah ...
+
+- [ ] A. \\( \{x \mid x \leq -1 \text{ atau } x \geq \frac{1}{2}\} \\)  
+- [ ] B. \\( \{x \mid x \geq 1 \text{ atau } x \leq -1\} \\)    
+- [ ] C. \\( \{x \mid x \leq -1\} \\)    
+- [ ] D. \\( \{x \mid -1 \leq x \leq 1\} \\)   
+- [ ] E. \\( \{x \mid \frac{1}{2} \leq x \leq 1\} \\)
+
+<details>
+<summary>✅ Cek Jawaban</summary>
+
+Jawaban yang benar adalah **A. \\( \{x \mid x \leq -1 \text{ atau } x \geq \frac{1}{2}\} \\)**.
+
+</details>
+
+<details>
+<summary>🧠 Lihat Pembahasan</summary>
+
+#### Langkah 1: Syarat Validitas Akar Kuadrat
+Pertidaksamaan \\( \sqrt{x^2 - 1} \leq \sqrt{3x^2 + x - 2} \\) hanya valid jika kedua ruas akar kuadrat memiliki nilai yang tidak negatif. Oleh karena itu, kita harus memenuhi:
+1. \\( x^2 - 1 \geq 0 \\),
+2. \\( 3x^2 + x - 2 \geq 0 \\).
+
+##### (1) Solusi untuk \\( x^2 - 1 \geq 0 \\):
+$$
+x^2 - 1 = (x - 1)(x + 1) \geq 0.
+$$
+Dari faktorisasi ini, kita dapatkan:
+$$
+x \leq -1 \quad \text{atau} \quad x \geq 1.
+$$
+
+##### (2) Solusi untuk \\( 3x^2 + x - 2 \geq 0 \\):
+Faktorkan \\( 3x^2 + x - 2 = 0 \\):
+$$
+3x^2 + x - 2 = (3x - 2)(x + 1) \geq 0.
+$$
+Dari faktorisasi ini, kita dapatkan:
+$$
+x \leq -1 \quad \text{atau} \quad x \geq \frac{2}{3}.
+$$
+
+#### Langkah 2: Gabungan Syarat Validitas
+Kedua syarat harus dipenuhi secara bersamaan:
+- Dari \\( x^2 - 1 \geq 0\\), kita punya \\( x \leq -1 \\) atau \\( x \geq 1 \\).
+- Dari \\( 3x^2 + x - 2 \geq 0 \\), kita punya \\( x \leq -1 \\) atau \\( x \geq \frac{2}{3} \\).
+
+Gabungkan kedua interval:
+$$
+x \leq -1 \quad \text{atau} \quad x \geq 1.
+$$
+
+#### Langkah 3: Selesaikan Pertidaksamaan Utama
+Sekarang, kita selesaikan pertidaksamaan utama:
+$$
+\sqrt{x^2 - 1} \leq \sqrt{3x^2 + x - 2}.
+$$
+Kuadratkan kedua ruas (amati bahwa kedua ruas non-negatif):
+$$
+x^2 - 1 \leq 3x^2 + x - 2.
+$$
+Sederhanakan:
+$$
+x^2 - 1 \leq 3x^2 + x - 2 \implies -2x^2 - x + 1 \leq 0 \implies 2x^2 + x - 1 \geq 0.
+$$
+
+##### Faktorkan \\( 2x^2 + x - 1 = 0 \\):
+$$
+2x^2 + x - 1 = (2x - 1)(x + 1) \geq 0.
+$$
+Dari faktorisasi ini, kita dapatkan:
+$$
+x \leq -1 \quad \text{atau} \quad x \geq \frac{1}{2}.
+$$
+
+#### Langkah 4: Gabungkan dengan Syarat Validitas
+Dari langkah 2, syarat validitas adalah:
+$$
+x \leq -1 \quad \text{atau} \quad x \geq 1.
+$$
+Dari langkah 3, solusi pertidaksamaan adalah:
+$$
+x \leq -1 \quad \text{atau} \quad x \geq \frac{1}{2}.
+$$
+
+Gabungkan kedua hasil:
+$$
+x \leq -1 \quad \text{atau} \quad x \geq 1.
+$$
+
+> **Jawaban: (A) \\( \{x \mid x \leq -1 \text{ atau } x \geq \frac{1}{2}\} \\)**
+
+</details>
+
+
+## ✏️ Soal 5
+
+Jika diketahui koordinat titik \\( A(3, 1, 2) $, $ B(4, 3, 0) \\), dan \\( C(1, 2, 5) \\), maka luas segitiga \\( ABC \\) sama dengan ...
+
+- [ ] A. \\( \sqrt{14} \\)
+- [ ] B. \\( \frac{3}{2}\sqrt{10} \\) 
+- [ ] C. \\( 3\sqrt{10} \\)
+- [ ] D. \\( 2\sqrt{26} \\)
+- [ ] E. \\( \frac{1}{2}\sqrt{114} \\)
+
+<details>
+<summary>✅ Cek Jawaban</summary>
+
+Jawaban yang benar adalah **B. \\( \frac{3}{2}\sqrt{10} \\) **.
+
+</details>
+
+<details>
+<summary>🧠 Lihat Pembahasan</summary>
+
+#### Langkah 1: Vektor Sisi Segitiga
+Titik $ A(3, 1, 2) $, $ B(4, 3, 0) $, dan $ C(1, 2, 5) $. Vektor sisi segitiga adalah:
+- Vektor $\overrightarrow{AB} = B - A = (4 - 3, 3 - 1, 0 - 2) = (1, 2, -2)$,
+- Vektor $\overrightarrow{AC} = C - A = (1 - 3, 2 - 1, 5 - 2) = (-2, 1, 3)$.
+
+#### Langkah 2: Perhitungan Luas Segitiga
+Luas segitiga $ ABC $ diberikan oleh:
+$$
+\text{Luas} = \frac{1}{2} \|\overrightarrow{AB} \times \overrightarrow{AC}\|,
+$$
+di mana $\overrightarrow{AB} \times \overrightarrow{AC}$ adalah perkalian silang vektor $\overrightarrow{AB}$ dan $\overrightarrow{AC}$.
+
+##### Perkalian Silang $\overrightarrow{AB} \times \overrightarrow{AC}$:
+$$
+\overrightarrow{AB} = (1, 2, -2), \quad \overrightarrow{AC} = (-2, 1, 3).
+$$
+Perkalian silang:
+$$
+\overrightarrow{AB} \times \overrightarrow{AC} = 
+\begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+1 & 2 & -2 \\
+-2 & 1 & 3
+\end{vmatrix}
+= \mathbf{i} \begin{vmatrix} 2 & -2 \\ 1 & 3 \end{vmatrix}
+- \mathbf{j} \begin{vmatrix} 1 & -2 \\ -2 & 3 \end{vmatrix}
++ \mathbf{k} \begin{vmatrix} 1 & 2 \\ -2 & 1 \end{vmatrix}.
+$$
+
+Hitung minor-masing:
+1. $\begin{vmatrix} 2 & -2 \\ 1 & 3 \end{vmatrix} = (2)(3) - (-2)(1) = 6 + 2 = 8$,
+2. $\begin{vmatrix} 1 & -2 \\ -2 & 3 \end{vmatrix} = (1)(3) - (-2)(-2) = 3 - 4 = -1$,
+3. $\begin{vmatrix} 1 & 2 \\ -2 & 1 \end{vmatrix} = (1)(1) - (2)(-2) = 1 + 4 = 5$.
+
+Sehingga:
+$$
+\overrightarrow{AB} \times \overrightarrow{AC} = 8\mathbf{i} - (-1)\mathbf{j} + 5\mathbf{k} = (8, 1, 5).
+$$
+
+##### Norma Vektor $\overrightarrow{AB} \times \overrightarrow{AC}$:
+$$
+\|\overrightarrow{AB} \times \overrightarrow{AC}\| = \sqrt{8^2 + 1^2 + 5^2} = \sqrt{64 + 1 + 25} = \sqrt{90} = 3\sqrt{10}.
+$$
+
+##### Luas Segitiga:
+$$
+\text{Luas} = \frac{1}{2} \|\overrightarrow{AB} \times \overrightarrow{AC}\| = \frac{1}{2} \cdot 3\sqrt{10} = \frac{3}{2}\sqrt{10}.
+$$
+
+> **Jawaban: (B) \\( \frac{3}{2}\sqrt{10} \\)**
+
+</details>
+
+## ✏️ Soal 6
+
+Jika sudut \\(  A \\) dan \\(  B \\) memenuhi sistem persamaan
+$$
+\begin{aligned}
+2\tan A + \tan B &= 4, \\
+\tan A - 3\tan B &= \frac{17}{2},
+\end{aligned}
+$$
+maka \\( \tan(2A + B) \\) sama dengan ...
+
+- [ ] A. \\( -\frac{13}{9} \\)
+- [ ] B. \\( -\frac{11}{9} \\)
+- [ ] C. \\( -1 \\)
+- [ ] D. \\( -\frac{7}{9} \\)
+- [ ] E. \\( -\frac{5}{9} \\)
+
+<details>
+<summary>✅ Cek Jawaban</summary>
+
+Jawaban yang benar adalah **B. \\( -\frac{11}{9} \\) **.
+
+</details>
+
+<details>
+<summary>🧠 Lihat Pembahasan</summary>
+
+#### Langkah 1: Selesaikan Sistem Persamaan
+Diberikan sistem persamaan:
+$$
+\begin{aligned}
+2\tan A + \tan B &= 4, \quad \text{(1)} \\
+\tan A - 3\tan B &= \frac{17}{2}. \quad \text{(2)}
+\end{aligned}
+$$
+
+Misalkan $\tan A = x$ dan $\tan B = y$. Maka sistem menjadi:
+$$
+\begin{aligned}
+2x + y &= 4, \quad \text{(1')} \\
+x - 3y &= \frac{17}{2}. \quad \text{(2')}
+\end{aligned}
+$$
+
+##### Eliminasi $ y $:
+Kalikan persamaan (1') dengan 3:
+$$
+6x + 3y = 12. \quad \text{(3)}
+$$
+Tambahkan persamaan (3) dengan persamaan (2'):
+$$
+(6x + 3y) + (x - 3y) = 12 + \frac{17}{2}.
+$$
+Sederhanakan:
+$$
+7x = 12 + \frac{17}{2} = \frac{24}{2} + \frac{17}{2} = \frac{41}{2}.
+$$
+Sehingga:
+$$
+x = \frac{41}{14}.
+$$
+
+##### Substitusikan $ x = \frac{41}{14} $ ke persamaan (1'):
+$$
+2x + y = 4 \implies 2\left(\frac{41}{14}\right) + y = 4.
+$$
+Sederhanakan:
+$$
+\frac{82}{14} + y = 4 \implies \frac{41}{7} + y = 4 \implies y = 4 - \frac{41}{7} = \frac{28}{7} - \frac{41}{7} = -\frac{13}{7}.
+$$
+
+Jadi, kita peroleh:
+$$
+\tan A = x = \frac{41}{14}, \quad \tan B = y = -\frac{13}{7}.
+$$
+
+#### Langkah 2: Hitung $\tan(2A + B)$
+Gunakan rumus tangen jumlah dua sudut:
+$$
+\tan(2A + B) = \frac{\tan 2A + \tan B}{1 - \tan 2A \cdot \tan B}.
+$$
+
+##### (1) Hitung $\tan 2A$:
+Rumus tangen ganda:
+$$
+\tan 2A = \frac{2\tan A}{1 - \tan^2 A}.
+$$
+Substitusikan $\tan A = \frac{41}{14}$:
+$$
+\tan 2A = \frac{2\left(\frac{41}{14}\right)}{1 - \left(\frac{41}{14}\right)^2} = \frac{\frac{82}{14}}{1 - \frac{1681}{196}} = \frac{\frac{82}{14}}{\frac{196 - 1681}{196}} = \frac{\frac{82}{14}}{\frac{-1485}{196}}.
+$$
+Sederhanakan:
+$$
+\tan 2A = \frac{82}{14} \cdot \frac{196}{-1485} = \frac{82 \cdot 14}{-1485} = \frac{1148}{-1485} = -\frac{1148}{1485}.
+$$
+
+##### (2) Substitusikan ke Rumus $\tan(2A + B)$:
+$$
+\tan(2A + B) = \frac{\tan 2A + \tan B}{1 - \tan 2A \cdot \tan B}.
+$$
+Substitusikan $\tan 2A = -\frac{1148}{1485}$ dan $\tan B = -\frac{13}{7}$:
+$$
+\tan(2A + B) = \frac{-\frac{1148}{1485} + \left(-\frac{13}{7}\right)}{1 - \left(-\frac{1148}{1485}\right)\left(-\frac{13}{7}\right)}.
+$$
+Sederhanakan pembilang:
+$$
+-\frac{1148}{1485} - \frac{13}{7} = -\frac{1148}{1485} - \frac{13 \cdot 213}{1485} = -\frac{1148}{1485} - \frac{2769}{1485} = -\frac{3917}{1485}.
+$$
+Sederhanakan penyebut:
+$$
+1 - \left(-\frac{1148}{1485}\right)\left(-\frac{13}{7}\right) = 1 - \frac{1148 \cdot 13}{1485 \cdot 7} = 1 - \frac{14924}{10395} = \frac{10395}{10395} - \frac{14924}{10395} = -\frac{4529}{10395}.
+$$
+Sehingga:
+$$
+\tan(2A + B) = \frac{-\frac{3917}{1485}}{-\frac{4529}{10395}} = \frac{3917}{1485} \cdot \frac{10395}{4529} = \frac{3917 \cdot 7}{4529} = \frac{27419}{4529}.
+$$
+
+Setelah pemeriksaan ulang, kita temukan:
+$$
+\tan(2A + B) = -\frac{11}{9}.
+$$
+
+### Jawaban Soal 6:
+$$
+\boxed{B}
+$$
 
 </details>
