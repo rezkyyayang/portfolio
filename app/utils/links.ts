@@ -17,6 +17,11 @@ export const navLinks: NavigationMenuItem[] = [
     icon: 'i-lucide-file-text', // Icon for the Blog page
     to: '/blog' // Path to the Blog page
   },
+  {
+    label: 'Exams', // Label for the Exams page
+    icon: 'i-lucide-list', // Icon for the Exams page
+    to: '/exams' // Path to the Exams page
+  },
     // {
     //   label: 'Videos', // Label for the Videos page
     //   icon: 'i-lucide-mic', // Icon for the Videos page
