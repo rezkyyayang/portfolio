@@ -95,11 +95,22 @@ export default defineContentConfig({
         author: createAuthorSchema()
       })
     }),
+    exams: defineCollection({
+      type: 'page',
+      source: 'exams/*.md',
+      schema: z.object({
+        minRead: z.number(),
+        date: z.date(),
+        image: z.string().nonempty().editor({ input: 'media' }),
+        author: createAuthorSchema()
+      })
+    }),
     pages: defineCollection({
       type: 'page',
       source: [
         { include: 'projects.yml' },
-        { include: 'blog.yml' }
+        { include: 'blog.yml' },
+        { include: 'exams.yml' }
       ],
       schema: z.object({
         links: z.array(createButtonSchema())
