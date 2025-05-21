@@ -31,7 +31,9 @@ const route = useRoute()
 
 function renderMathJax() {
   if (window.MathJax) {
-    window.MathJax.typesetPromise();
+    if (window.MathJax?.typesetPromise) {
+      window.MathJax.typesetPromise();
+    }
   }
 }
 
