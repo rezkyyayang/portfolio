@@ -29,9 +29,23 @@ function mapNavigation(items: ContentNavigationItem[]): { label: string; path: s
 
 const route = useRoute()
 
+function renderMathJax() {
+  if (window.MathJax) {
+    window.MathJax.typesetPromise();
+  }
+}
+
 const { data: page } = await useAsyncData(route.path, () =>
   queryCollection('exams').path(route.path).first()
-)
+);
+if (!page.value) throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true });
+
+// Render MathJax setelah data dimuat
+renderMathJax();
+
+watch(() => page.value, () => {
+  renderMathJax();
+});
 if (!page.value) throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
 const { data: surround } = await useAsyncData(`${route.path}-surround`, () =>
   queryCollectionItemSurroundings('exams', route.path, {
